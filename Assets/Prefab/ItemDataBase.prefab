@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &997756036981741644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 837024023063789497}
+  - component: {fileID: -5872038302739360486}
+  m_Layer: 0
+  m_Name: ItemDataBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &837024023063789497
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997756036981741644}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-5872038302739360486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997756036981741644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bfb23c20b040e74499af34b2e94037b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DB:
+  - ItemName: Sword
+    ItemPrice: 3000
+    sprite: {fileID: 21300000, guid: dc6dca28d36354c4598255c464e35bc4, type: 3}
+  - ItemName: Hammer
+    ItemPrice: 1000
+    sprite: {fileID: 21300000, guid: 5f7e4314c2765e24d98e9b42b25cfd52, type: 3}
+  - ItemName: Bow & Arrow
+    ItemPrice: 2500
+    sprite: {fileID: 21300000, guid: 0b1adc4d39f93074ca9bbc35f2c2615a, type: 3}
+  - ItemName: Shield
+    ItemPrice: 2000
+    sprite: {fileID: 21300000, guid: 4c6900d1ca6a7914ab4116dd966828f5, type: 3}
+  - ItemName: Key
+    ItemPrice: 5000
+    sprite: {fileID: 21300000, guid: 95395ffc411962343ba083c8241bc298, type: 3}
+  - ItemName: Apple
+    ItemPrice: 500
+    sprite: {fileID: 21300000, guid: b329ebf61a42f854c895c338c8e2dbe5, type: 3}
+  - ItemName: Bread
+    ItemPrice: 1000
+    sprite: {fileID: 21300000, guid: 07a3d24a67b63134f8b3b987278c2099, type: 3}
+  - ItemName: Chicken Soup
+    ItemPrice: 2000
+    sprite: {fileID: 21300000, guid: 45c03069a16b6ca4aa5e183c89839cfe, type: 3}
